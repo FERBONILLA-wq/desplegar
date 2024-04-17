@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(110, 77, 77);
+    color: white;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 193, 193);
+    background-color: #a75656;
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.formulario input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #bfacac;
+    color: white;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+}
+.formulario button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+.formulario button:hover{
+    background-color: #45a049;
+}
+h1{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navegar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #ffc1c1;
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #450000;
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.login input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #821515;
+    color: white;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+}
+.login button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+.login button:hover{
+    background-color: #45a049;
+}
+.regresar{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #494646;
+    color: white;
+    cursor: pointer;
+}
+.regresar:hover{
+    background-color: #3f3f3f;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.error{
+    color: rgb(248, 59, 59);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
