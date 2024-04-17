@@ -13,7 +13,7 @@ app.use(express.json());
 
 // Manejar solicitudes GET a la URL raíz
 app.get("/", (_, res) => {
-  res.send("¡Hola, mundo!");
+  res.send("¡Hola, mundo soy fernanda!");
 });
 
 app.use("/api", authRoute);
